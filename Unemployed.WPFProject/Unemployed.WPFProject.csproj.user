@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="CasinoWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CoinFlipWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DiceWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EndGame.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Intro.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Restaurant.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WheelOfFortuneColorPickWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WheelOfFortuneNumberPicker.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WheelOfFortuneWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="CasinoWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CoinFlipWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DiceWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EndGame.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Intro.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Restaurant.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WheelOfFortuneColorPickWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WheelOfFortuneNumberPicker.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WheelOfFortuneWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

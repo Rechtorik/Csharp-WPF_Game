@@ -1,0 +1,25 @@
+﻿<Window x:Class="Unemployed.WPFProject.Intro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Unemployed.WPFProject"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Intro" Height="500" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Margin="50" Grid.Row="0">
+            <TextBlock Text="Enter your name: " FontSize="50"/>
+            <TextBox Name="name_textbox" FontSize="30" Margin="0, 10, 0, 0"/>
+            <TextBlock Text="What's going on?" FontSize="30" Margin="0, 20, 0, 10" FontWeight="Bold"/>
+            <TextBlock Text="You were fired because of your casino addiction, show them that they're wrong!" FontSize="20" FontWeight="ExtraLight"/>
+            <TextBlock Text="Try to survive as long as you can!" FontSize="20" FontWeight="ExtraLight"/>
+        </StackPanel>
+        <Button Content="Start" Grid.Row="1" Margin="50" Height="50" Click="Start_Click"/>
+    </Grid>
+</Window>

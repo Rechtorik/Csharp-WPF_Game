@@ -1,0 +1,24 @@
+﻿<Window x:Class="Unemployed.WPFProject.Restaurant"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Unemployed.WPFProject"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="" Height="180" Width="200">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center">
+            <TextBlock Text="Do you wanna eat?" Margin="20, 30, 20, 0"/>
+            <StackPanel Orientation="Horizontal" Margin="20">
+                <TextBlock Text="Lunch cost: "/>
+                <TextBlock Text="{Binding Price}" Margin="30, 0, 0, 0"/>
+                <TextBlock Text="€"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,0">
+                <Button Content="Yes" Height="30" Width="50" Margin="5" Click="Yes_Click"/>
+                <Button Content="No" Height="30" Width="50" Margin="5" Click="No_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
